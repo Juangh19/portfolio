@@ -4,9 +4,9 @@ export function About() {
 	return (
 		<section id='about' className='py-16 bg-light scroll-mt-10'>
 			<div className='flex flex-col items-center max-w-4xl gap-12 px-8 mx-auto md:flex-row '>
-				<div className='flex-1 border-[3px] rounded-[4rem] overflow-hidden '>
+				<div className='flex-1 max-w-sm border-[3px] rounded-[4rem] overflow-hidden '>
 					<img
-						className='w-full max-w-sm aspect-[211∶141]'
+						className='w-full  aspect-[211∶141]'
 						src={AboutImg}
 						alt='Working on a Laptop'
 					/>

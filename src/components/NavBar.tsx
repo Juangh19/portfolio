@@ -11,7 +11,9 @@ export function NavBar() {
 	return (
 		<header className='bg-[#fcfcfc] sticky top-0 z-50 shadow-md     border-b border-[#e9e9e9]'>
 			<div className='flex items-center justify-between h-16 max-w-4xl px-8 py-4 mx-auto'>
-				<h2 className='text-xl font-semibold'>juan-garcia</h2>
+				<a href='#home'>
+					<h2 className='text-xl font-semibold'>juan-garcia</h2>
+				</a>
 				<nav className='hidden gap-5 font-medium sm:flex'>
 					<a href='#home ' className='transition hover:text-drew '>
 						Home

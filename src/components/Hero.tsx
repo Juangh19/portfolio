@@ -76,14 +76,14 @@ export function Hero() {
 							alt='js logo'
 						/>
 						<img
-							src={reactLogo}
-							className='transition duration-200 hover:scale-105'
-							alt='react logo'
-						/>
-						<img
 							src={tsLogo}
 							className='transition duration-200 hover:scale-105'
 							alt='ts logo'
+						/>
+						<img
+							src={reactLogo}
+							className='transition duration-200 hover:scale-105'
+							alt='react logo'
 						/>
 						<img
 							src={figmaLogo}

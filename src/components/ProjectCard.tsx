@@ -73,11 +73,11 @@ export function ProjectCard(props: ProjectCardProps) {
 								src={projectImg}
 								onMouseEnter={() => setIsHovering(true)}
 								onMouseLeave={() => setIsHovering(false)}
-								className={` translate-y-0 ${
+								className={`  ${
 									isHovering
 										? '-translate-y-[calc(100%-14.7rem)] '
 										: 'translate-y-0'
-								} absolute  w-full transition duration-[8s] `}
+								} absolute  w-full transition duration-[7s] `}
 								alt={projectName}
 							/>
 						</a>
