@@ -32,7 +32,9 @@ export function ProjectCard(props: ProjectCardProps) {
 		<div className='px-8 py-6 bg-light rounded-[2.5rem] shadow-md mb-12'>
 			<div
 				className={`flex [@media(min-width:896px)]:flex-row flex-col-reverse   ${
-					reverseCard === true ? 'flex-row-reverse' : 'flex-row'
+					reverseCard === true
+						? '[@media(min-width:896px)]:flex-row-reverse'
+						: 'flex-row'
 				}  items-center gap-4 `}
 			>
 				<div className='flex flex-col gap-4'>
@@ -73,7 +75,7 @@ export function ProjectCard(props: ProjectCardProps) {
 								onMouseLeave={() => setIsHovering(false)}
 								className={` translate-y-0 ${
 									isHovering
-										? '-translate-y-[calc(100%-14.6rem)] '
+										? '-translate-y-[calc(100%-14.7rem)] '
 										: 'translate-y-0'
 								} absolute  w-full transition duration-[8s] `}
 								alt={projectName}
