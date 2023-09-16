@@ -6,7 +6,7 @@ import tailwindLogo from '../assets/images/techLogos/tailwind.png';
 import cssLogo from '../assets/images/techLogos/css.png';
 import FurnaPage from '../assets/images/projectsImages/FurnaPage.jpeg';
 import CoinityPage from '../assets/images/projectsImages/CoinityPage.png';
-import TempoTaskerPage from '../assets/images/projectsImages/TempoTaskerPage.jpeg';
+import TempoTaskerPage from '../assets/images/projectsImages/TempotaskerPage.jpeg';
 import WeatherAppPage from '../assets/images/projectsImages/WeatherAppPage.jpeg';
 
 export function Projects() {
