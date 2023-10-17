@@ -48,8 +48,8 @@ product management.'
 					projectDescription='Tempotasker is a task management web application designed to boost productivity. It allows users to organize tasks, allocate time efficiently, and transition seamlessly between tasks.'
 					techUsed={[cssLogo, tsLogo, reactLogo]}
 					projectImg={TempoTaskerPage}
-					projectCode='https://github.com/Juangh19/coinity'
-					projectLink='https://juangh19.github.io/coinity/'
+					projectCode='https://github.com/Juangh19/tempotasker'
+					projectLink='https://juangh19.github.io/tempotasker/'
 				/>
 				<ProjectCard
 					projectName='WeatherApp 🌦️ '
@@ -57,8 +57,8 @@ product management.'
 					projectDescription='WeatherApp is a web application dedicated to offering current weather information for different cities, ensuring you are always informed about atmospheric conditions'
 					techUsed={[cssLogo, jsLogo, reactLogo]}
 					projectImg={WeatherAppPage}
-					projectCode='https://github.com/Juangh19/coinity'
-					projectLink='https://juangh19.github.io/coinity/'
+					projectCode='https://github.com/Juangh19/weatherApp'
+					projectLink='https://juangh19.github.io/weatherApp/'
 					reverseCard={true}
 				/>
 			</div>
