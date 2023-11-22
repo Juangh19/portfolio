@@ -16,15 +16,15 @@ export function Hero() {
 					<div className='flex flex-col flex-1 gap-8 [@media(min-width:700px)]:text-left text-center min-w'>
 						<div className='relative'>
 							<h1 className='relative z-10 text-4xl [@media(min-width:700px)]:text-5xl font-bold '>
-								Front-end Web Developer
+								Web Developer
 							</h1>
 							<div className='hidden [@media(min-width:700px)]:block absolute z-0 w-32 h-32 -bottom-8 left-[12rem]'>
 								<CodeIcon />
 							</div>
 						</div>
 						<p className='opacity-80 '>
-							Hi, I’m Juan Garcia, A passionate Front-end Developer from
-							Barranquilla, Colombia 📍
+							Hi, I’m Juan Garcia, A passionate Web Developer from Barranquilla,
+							Colombia 📍
 						</p>
 						<div className='flex [@media(min-width:700px)]:justify-start  justify-center gap-4'>
 							<a

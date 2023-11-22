@@ -20,13 +20,12 @@ export function About() {
 						An enthusiast Web Developer 💻
 					</h2>
 					<p className='opacity-80'>
-						As a Junior Front-End Developer, I possess a versatile skill set,
-						including HTML, CSS, JavaScript, TypeScript, React, and Tailwind.
-						I'm highly proficient in Figma, translating design into functional
-						websites. My dedication to efficient code, adherence to industry
-						standards, and strong communication skills enable me to collaborate
-						effectively within diverse teams, ensuring exceptional web
-						applications.
+						As a Web Developer, I possess a versatile skill set, including HTML,
+						CSS, JavaScript, TypeScript, React, and Tailwind. I'm highly
+						proficient in Figma, translating design into functional websites. My
+						dedication to efficient code, adherence to industry standards, and
+						strong communication skills enable me to collaborate effectively
+						within diverse teams, ensuring exceptional web applications.
 					</p>
 				</div>
 			</div>
