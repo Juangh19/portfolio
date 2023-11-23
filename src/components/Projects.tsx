@@ -1,9 +1,11 @@
 import { ProjectCard } from './ProjectCard';
 import reactLogo from '../assets/images/techLogos/React.png';
 import tsLogo from '../assets/images/techLogos/typescript.png';
+import nodeLogo from '../assets/images/techLogos/nodejs.png';
 import jsLogo from '../assets/images/techLogos/JavaScript.png';
 import tailwindLogo from '../assets/images/techLogos/tailwind.png';
 import cssLogo from '../assets/images/techLogos/css.png';
+import mongodbLogo from '../assets/images/techLogos/mongodb.png';
 import FurnaPage from '../assets/images/projectsImages/FurnaPage.jpeg';
 import CoinityPage from '../assets/images/projectsImages/CoinityPage.png';
 import TempoTaskerPage from '../assets/images/projectsImages/TempotaskerPage.jpeg';
@@ -45,11 +47,11 @@ product management.'
 				<ProjectCard
 					projectName='TempoTasker ⏲️ '
 					projectType='Productivity'
-					projectDescription='Tempotasker is a task management web application designed to boost productivity. It allows users to organize tasks, allocate time efficiently, and transition seamlessly between tasks.'
-					techUsed={[cssLogo, tsLogo, reactLogo]}
+					projectDescription='Tempotasker is a Full-Stack web application designed to boost productivity. It allows users to organize tasks, allocate time efficiently, and transition seamlessly between tasks.'
+					techUsed={[reactLogo, nodeLogo, mongodbLogo]}
 					projectImg={TempoTaskerPage}
-					projectCode='https://github.com/Juangh19/tempotasker'
-					projectLink='https://juangh19.github.io/tempotasker/'
+					projectCode='https://github.com/Juangh19/TempoTaskerFullStack'
+					projectLink='https://tempo-tasker.onrender.com/'
 				/>
 				<ProjectCard
 					projectName='WeatherApp 🌦️ '
