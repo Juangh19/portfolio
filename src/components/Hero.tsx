@@ -6,6 +6,10 @@ import reactLogo from '../assets/images/techLogos/React.png';
 import tsLogo from '../assets/images/techLogos/typescript.png';
 import figmaLogo from '../assets/images/techLogos/Figma.png';
 import tailwindLogo from '../assets/images/techLogos/tailwind.png';
+import nodejsLogo from '../assets/images/techLogos/nodejs.png';
+import expressLogo from '../assets/images/techLogos/express.png';
+import mongodbLogo from '../assets/images/techLogos/mongodb.png';
+import nextjsLogo from '../assets/images/techLogos/nextjs.png';
 import HeroImg from '../assets/images/HeroImg.png';
 
 export function Hero() {
@@ -51,43 +55,63 @@ export function Hero() {
 						/>
 					</div>
 				</div>
-				<div className='mx-auto text-center w-fit'>
+				<div className='max-w-2xl mx-auto text-center w-fit'>
 					<span className='text-xl font-medium opacity-80'>Tech Stack</span>
 					<hr className='w-48 mx-auto mt-2 mb-6 opacity-80 ' />
 					<div className='flex flex-wrap justify-center gap-6'>
 						<img
 							src={htmlLogo}
-							className='transition duration-200 hover:scale-105'
+							className='transition duration-200 w-14 h-14 hover:scale-105'
 							alt='html logo'
 						/>
 						<img
 							src={cssLogo}
-							className='transition duration-200 hover:scale-105'
+							className='transition duration-200 w-14 h-14 hover:scale-105'
 							alt='css logo'
 						/>
 						<img
 							src={tailwindLogo}
-							className='transition duration-200 hover:scale-105'
+							className='transition duration-200 w-14 h-14 hover:scale-105'
 							alt='tailwind logo'
 						/>
 						<img
 							src={jsLogo}
-							className='transition duration-200 hover:scale-105'
+							className='transition duration-200 w-14 h-14 hover:scale-105'
 							alt='js logo'
 						/>
 						<img
 							src={tsLogo}
-							className='transition duration-200 hover:scale-105'
+							className='transition duration-200 w-14 h-14 hover:scale-105'
 							alt='ts logo'
 						/>
 						<img
 							src={reactLogo}
-							className='transition duration-200 hover:scale-105'
+							className='transition duration-200 w-14 h-14 hover:scale-105'
 							alt='react logo'
 						/>
 						<img
+							src={nodejsLogo}
+							className='transition duration-200 w-14 h-14 hover:scale-105'
+							alt='node.js logo'
+						/>
+						<img
+							src={expressLogo}
+							className='transition duration-200 w-14 h-14 hover:scale-105'
+							alt='express logo'
+						/>
+						<img
+							src={mongodbLogo}
+							className='transition duration-200 w-14 h-14 hover:scale-105'
+							alt='mongodb logo'
+						/>
+						<img
+							src={nextjsLogo}
+							className='transition duration-200 w-14 h-14 hover:scale-105'
+							alt='next.js logo'
+						/>
+						<img
 							src={figmaLogo}
-							className='transition duration-200 hover:scale-105'
+							className='transition duration-200 w-14 h-14 hover:scale-105'
 							alt='figma logo'
 						/>
 					</div>
