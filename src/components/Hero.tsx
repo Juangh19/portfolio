@@ -10,6 +10,7 @@ import nodejsLogo from '../assets/images/techLogos/nodejs.png';
 import expressLogo from '../assets/images/techLogos/express.png';
 import mongodbLogo from '../assets/images/techLogos/mongodb.png';
 import nextjsLogo from '../assets/images/techLogos/nextjs.png';
+import reduxLogo from '../assets/images/techLogos/redux.png';
 import HeroImg from '../assets/images/HeroImg.png';
 
 export function Hero() {
@@ -88,6 +89,11 @@ export function Hero() {
 							src={reactLogo}
 							className='transition duration-200 w-14 h-14 hover:scale-105'
 							alt='react logo'
+						/>
+						<img
+							src={reduxLogo}
+							className='transition duration-200 w-14 h-14 hover:scale-105'
+							alt='redux logo'
 						/>
 						<img
 							src={nodejsLogo}
