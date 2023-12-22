@@ -1,6 +1,8 @@
+import { useLanguage } from '../context/Language';
 import { GithubIcon, LinkedinIcon } from './icons';
 
 export function Footer() {
+	const { language } = useLanguage();
 	return (
 		<section className='py-8 bg-dark text-light '>
 			<div className='flex items-center justify-between max-w-4xl gap-12 px-8 mx-auto'>
@@ -10,7 +12,11 @@ export function Footer() {
 						Copyright © 2023. Juan Garcia{' '}
 						<span className='block [@media(min-width:630px)]:inline'>
 							<span className='hidden [@media(min-width:630px)]:inline'>|</span>{' '}
-							All rights are reserved
+							{language === 'en'
+								? 'All rights reserved'
+								: language === 'es'
+								? 'Todos los derechos reservados'
+								: 'All rights reserved'}
 						</span>
 					</span>
 				</div>

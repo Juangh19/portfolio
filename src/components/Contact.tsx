@@ -1,16 +1,28 @@
+import { useLanguage } from '../context/Language';
 import { LinkedinIconNoBorder, MailIcon } from './icons';
 
 export function Contact() {
+	const { language } = useLanguage();
 	return (
 		<section id='contact' className='py-16 bg-light'>
 			<div className='flex flex-col items-center [@media(min-width:530px)]:flex-row justify-center max-w-4xl gap-2 [@media(min-width:530px)]:gap-10 px-8 mx-auto'>
 				<div className='flex flex-col'>
 					<div className='flex items-center gap-4 mb-3 text-xs text-drew'>
 						<hr className='w-10 border' />
-						<span className='font-bold '>CONTACT ME</span>
+						<span className='font-bold '>
+							{language === 'en'
+								? 'CONTACT ME'
+								: language === 'es'
+								? 'CONTACTAME'
+								: 'CONTACT ME'}
+						</span>
 					</div>
 					<h2 className='mb-6 text-3xl font-bold '>
-						Reach Me Here{' '}
+						{language === 'en'
+							? 'Reach Me Here'
+							: language === 'es'
+							? 'Contactame aqui'
+							: 'Reach Me Here'}
 						<span className='[@media(min-width:530px)]:hidden inline'>👇</span>
 						<span className='[@media(min-width:530px)]:inline hidden'>👉</span>
 					</h2>

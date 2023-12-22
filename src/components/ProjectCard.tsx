@@ -1,11 +1,13 @@
 import { useState } from 'react';
 import { ExternalLinkIcon, GithubIcon } from './icons';
 import LaptopMockUp from '../assets/images/LaptopMock.png';
+import { useLanguage } from '../context/Language';
 
 type ProjectCardProps = {
 	projectName: string;
 	projectType: string;
 	projectDescription: string;
+	projectDescriptionES: string;
 	techUsed: string[];
 	projectImg: string;
 	projectLink: string;
@@ -15,12 +17,13 @@ type ProjectCardProps = {
 
 export function ProjectCard(props: ProjectCardProps) {
 	const [isHovering, setIsHovering] = useState(false);
-	console.log(isHovering);
+	const { language } = useLanguage();
 
 	const {
 		projectName,
 		projectType,
 		projectDescription,
+		projectDescriptionES,
 		techUsed,
 		projectImg,
 		projectLink,
@@ -44,9 +47,14 @@ export function ProjectCard(props: ProjectCardProps) {
 							({projectType})
 						</span>
 					</h4>
-					<p className='font-semibold opacity-60'>{projectDescription}</p>
+					<p className='font-semibold opacity-60'>
+						{language === 'en'
+							? projectDescription
+							: language === 'es'
+							? projectDescriptionES
+							: projectDescription}
+					</p>
 					<div className='flex flex-col gap-4 [@media(min-width:896px)]:flex-row items-center'>
-						<span className='font-semibold opacity-60 '>Tech used</span>
 						<div className='flex gap-2'>
 							{techUsed.map((tech, index) => (
 								<img
@@ -92,7 +100,11 @@ export function ProjectCard(props: ProjectCardProps) {
 					className='flex items-center gap-2 font-semibold transition hover:text-drew'
 				>
 					<span className='text-base [@media(min-width:390px)]:text-xl'>
-						Code
+						{language === 'en'
+							? 'Code'
+							: language === 'es'
+							? 'Código '
+							: 'Code'}
 					</span>
 					<GithubIcon style='w-7 h-7' />
 				</a>
@@ -103,7 +115,7 @@ export function ProjectCard(props: ProjectCardProps) {
 					className='flex items-center gap-2 font-semibold transition hover:text-drew'
 				>
 					<span className='text-base [@media(min-width:390px)]:text-xl '>
-						Live Demo
+						{language === 'en' ? 'Demo' : language === 'es' ? 'Demo' : 'Demo'}
 					</span>
 					<ExternalLinkIcon style='w-7 h-7' />
 				</a>
