@@ -1,5 +1,5 @@
 import { useLanguage } from '../context/Language';
-import { LinkedinIconNoBorder, MailIcon } from './icons';
+import { LinkedinIconNoBorder, MailIcon, PhoneIcon } from './icons';
 
 export function Contact() {
 	const { language } = useLanguage();
@@ -39,6 +39,28 @@ export function Contact() {
 								className='text-sm transition opacity-60 hover:text-drew hover:opacity-100'
 							>
 								juangarcia7337@gmail.com
+							</a>
+						</div>
+					</div>
+					<div className='flex items-center gap-3'>
+						<div className='grid rounded-full shadow-[0_0_5px_0px_rgba(0,0,0,0.25)] w-9 h-9 place-content-center'>
+							<PhoneIcon style='h-6 w-6 ' />
+						</div>
+						<div className='flex flex-col '>
+							<span className='font-semibold '>
+								{language === 'en'
+									? 'Phone'
+									: language === 'es'
+									? 'Telefono'
+									: 'Phone'}
+							</span>
+							<a
+								href='https://wa.me/573006026356'
+								target='_blank'
+								rel='noopener'
+								className='text-sm transition opacity-60 hover:text-drew hover:opacity-100'
+							>
+								+57 300 6026356
 							</a>
 						</div>
 					</div>
