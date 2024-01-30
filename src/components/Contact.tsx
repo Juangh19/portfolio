@@ -21,7 +21,7 @@ export function Contact() {
 						{language === 'en'
 							? 'Reach Me Here'
 							: language === 'es'
-							? 'Contactame aqui'
+							? 'Contáctame aquí'
 							: 'Reach Me Here'}
 						<span className='[@media(min-width:530px)]:hidden inline'>👇</span>
 						<span className='[@media(min-width:530px)]:inline hidden'>👉</span>

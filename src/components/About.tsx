@@ -28,7 +28,7 @@ export function About() {
 						{language === 'en'
 							? 'An enthusiast Web Developer 💻'
 							: language === 'es'
-							? 'Un entusiasta desarrollador web 💻'
+							? 'Un entusiasta Desarrollador Web 💻'
 							: 'An enthusiast Web Developer 💻'}
 					</h2>
 					<p className='opacity-80'>
