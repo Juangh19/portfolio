@@ -9,7 +9,7 @@ export function Footer() {
 				<div className='flex flex-col gap-0 opacity-60'>
 					<span>Barranquilla, Colombia</span>
 					<span>
-						Copyright © 2023. Juan Garcia{' '}
+						Copyright © 2025. Juan Garcia{' '}
 						<span className='block [@media(min-width:630px)]:inline'>
 							<span className='hidden [@media(min-width:630px)]:inline'>|</span>{' '}
 							{language === 'en'

@@ -71,12 +71,12 @@ export function Contact() {
 						<div className='flex flex-col '>
 							<span className='font-semibold '>Linkedin</span>
 							<a
-								href='https://www.linkedin.com/in/juan-garcia-dev/'
+								href='https://www.linkedin.com/in/juan-cgh/'
 								target='_blank'
 								rel='noopener'
 								className='text-sm transition opacity-60 hover:text-drew hover:opacity-100'
 							>
-								in/juan-garcia-dev
+								in/juan-cgh
 							</a>
 						</div>
 					</div>

@@ -11,7 +11,7 @@ import expressLogo from '../assets/images/techLogos/express.png';
 import mongodbLogo from '../assets/images/techLogos/mongodb.png';
 import nextjsLogo from '../assets/images/techLogos/nextjs.png';
 import reduxLogo from '../assets/images/techLogos/redux.png';
-import HeroImg from '../assets/images/HeroImg.png';
+import HeroImg from '../assets/images/HeroImg2.png';
 import { useLanguage } from '../context/Language';
 
 export function Hero() {
@@ -37,14 +37,14 @@ export function Hero() {
 							{language === 'en'
 								? 'Hi, I’m Juan Garcia, A passionate Web Developer from Barranquilla, Colombia 📍'
 								: language === 'es'
-								? 'Hola, soy Juan Garcia, Un apasionado desarrollador web de Barranquilla, Colombia. 📍 '
-								: 'Hi, I’m Juan Garcia, A passionate Web Developer from Barranquilla, Colombia 📍'}
+								? 'Hola, soy Juan Garcia, Un apasionado desarrollador web de Colombia. 📍 '
+								: 'Hi, I’m Juan Garcia, A passionate Web Developer from Colombia 📍'}
 						</p>
 						<div className='flex [@media(min-width:700px)]:justify-start  justify-center gap-4'>
 							<a
 								target='_blank'
 								rel='noopener'
-								href='https://www.linkedin.com/in/juan-garcia-dev'
+								href='https://www.linkedin.com/in/juan-cgh'
 							>
 								<LinkedinIcon style='hover:text-drew transition' />
 							</a>
